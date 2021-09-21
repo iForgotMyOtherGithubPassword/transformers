@@ -51,38 +51,10 @@ for(let i = 0; i < characters.length; i++){
     transHub.appendChild(transName);
     transHub.appendChild(transClass);
     transHub.appendChild(transVehicle);
-
     document.body.appendChild(transHub);
 
 
 }
 
 
-
-// Do not write any elements into your HTML file.
-
-// Loop through the above array to append a div using .append() into the body tag.
-
-// The appended div should always have the ".character" class.
-
-// display the characters name, class, and vehicle in the div
-
-// Information should be displayed as "Name: Optimus Prime", with the next information on a different line.
-
-// If the character being looped through has an afl of autobot/decepticon, give them either a class of "autobot", or "decepitcon"
-
-// In the top right, based on the top information, insert an img elemnt for either the autobot or decepticon.
-
-// Link for autobot image https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Autobot-512.png.
-
-// Link for decepticon image https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Decepticon-512.png.
-
-// In the characters' "class" data, all of those values' letters should be capitalized when displayed in the div (so 'leader' should become 'LEADER').
-
-// in the characters' "vehicle" data, change the color of that value in the div based on its value
-// Truck=blue
-// Tank=green
-// Car=gold
-// Plane=white
-  
 
